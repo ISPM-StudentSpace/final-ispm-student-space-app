@@ -1,0 +1,113 @@
+.navbar {
+    padding: 8px 16px;
+    margin: auto;
+    margin-top: 16px;
+    border-radius: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0% 0% !important;
+    backdrop-filter: saturate(200%) blur(20px);
+}
+
+.nav-item a {
+    font-size: 14px;
+    color: rgb(52, 71, 103);
+}
+
+.navbar-toggler {
+    display: flex;
+    border: none;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: none !important;
+    align-items: center !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    margin-top: 14px !important;
+    padding: 16px;
+    border: none;
+    border-radius: 8px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+}
+
+.dropdown-item {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: rgba(0,0,0,.55) !important;
+}
+
+.dropdown-item:hover {
+    color: rgba(0,0,0,.9) !important;
+    background-color: #e9ecefbd;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand a img {
+    width: 40px;
+}
+
+.login-link {
+    padding: 8px 16px !important;
+    margin-left: 8px;
+    background-color: #14df85;
+    color: aliceblue !important;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #14df85;
+}
+
+@media (max-width: 1400px) { 
+   
+}
+
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 992px) {
+
+    .navbar {
+        background: rgba(255, 255, 255, 255) !important;
+    }
+
+    .mr-auto.navbar-nav {
+        padding: 16px 0px;
+    }
+
+    .dropdown-menu {
+        margin-top: 0px !important;
+        background-color: transparent;
+        border-top: 1px solid rgba(0,0,0,.1);
+        border-radius: 0px !important;
+        box-shadow: none;
+    }
+
+    .login-link {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 576px) {
+    
+}

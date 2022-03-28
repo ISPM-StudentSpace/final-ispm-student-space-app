@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../font/roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('../font/Raleway/Raleway-Light.ttf');
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+	color: white;
+	border-radius: 8px;
+	padding: 10px 30px;
+	background: #14df85;
+    border: 2px solid #14df85;
+    transition: .4s ease-in-out;
+    box-shadow: none !important;
+}
+
+.btn:hover {
+	color: #14df85;
+	background: white;
+}

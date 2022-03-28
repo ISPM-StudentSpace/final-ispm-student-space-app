@@ -1,0 +1,64 @@
+.footer {
+    font-family: 'Roboto-Light', sans-serif;
+    padding-top: 48px;
+}
+
+.footer hr {
+    width: 60px;
+    background-color: #14df85;
+    margin-top: 8px;
+}
+
+.footer p {
+    font-size: 14.4px;
+    font-weight: 300;
+    transition: .4s ease-in-out;
+}
+
+.footer h4 {
+    letter-spacing: 1px;
+}
+
+.footer h4 span {
+    color: #14df85;
+}
+
+.footer svg {
+    position: relative;
+    top: -1px;
+}
+
+.footer #footer-logo img {
+    width: 20px;
+}
+
+.footer a.btn {
+    margin-top: 8px;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    transition: .4s ease-in-out;
+}
+
+.footer a:hover, .footer p:hover {
+    color: #14df85;
+}
+
+.footer .copyright {
+    font-size: 14.4px;
+    margin-top: 48px;
+    padding: 15px 15px;
+    background: #2c3e50;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer .copyright .copyright-text {
+    color: rgba(255,255,255,0.6);
+}
+
+.footer .copyright .copyright-text a {
+    color: white;
+}
