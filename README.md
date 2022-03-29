@@ -1,6 +1,6 @@
-# Info 04 IGGLIA
+# Info 04 IGGLIA 
 - DANARSON Sunyo Aldrich, IGGLIA4, Numéro 12 
-- RAKOTOARISOA Solofonirina Franck, IGGLIA4
+- RAKOTOARISOA Solofonirina Franck, IGGLIA4, Numéro 38 
 
 # Getting Started with Create React App
 
