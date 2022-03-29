@@ -1,3 +1,7 @@
+# Info 04 IGGLIA
+- DANARSON Sunyo Aldrich, IGGLIA4, Numéro 12 
+- RAKOTOARISOA Solofonirina Franck, IGGLIA4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
