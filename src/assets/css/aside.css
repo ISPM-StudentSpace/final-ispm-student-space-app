@@ -1,0 +1,70 @@
+.aside-section {
+    padding: 30px;
+    margin-bottom: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 6.25rem 5rem 0 rgba(0, 0, 0, 0.02), 0 4.05063rem 2.92813rem 0 rgba(0, 0, 0, 0.0152), 0 2.4075rem 1.5925rem 0 rgba(0, 0, 0, 0.0121), 0 1.25rem 0.8125rem 0 rgba(0, 0, 0, 0.01), 0 0.50938rem 0.4075rem 0 rgba(0, 0, 0, 0.0079), 0 0.11563rem 0.19687rem 0 rgba(0, 0, 0, 0.0048) !important;
+}
+
+.carousel-section {
+    overflow: hidden;
+    border-radius: 12px; 
+    box-shadow: 0 6.25rem 5rem 0 rgba(0, 0, 0, 0.02), 0 4.05063rem 2.92813rem 0 rgba(0, 0, 0, 0.0152), 0 2.4075rem 1.5925rem 0 rgba(0, 0, 0, 0.0121), 0 1.25rem 0.8125rem 0 rgba(0, 0, 0, 0.01), 0 0.50938rem 0.4075rem 0 rgba(0, 0, 0, 0.0079), 0 0.11563rem 0.19687rem 0 rgba(0, 0, 0, 0.0048) !important;
+}
+
+.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+    display: none;
+}
+
+.aside-section p {
+    margin: 0px;
+}
+
+.aside-section hr {
+    background-color: #00000094 !important;
+}
+
+.aside-section span {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #afafaf;
+}
+
+.aside-section span svg {
+    margin-right: 8px;
+    position: relative;
+    top: -2px;
+}
+
+.aside-title {
+    font-size: 20px;
+    font-weight: 400;
+    border-left: 5px solid #14df85;
+    padding-left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px;
+}
+
+@media (max-width: 1400px) { 
+   
+}
+
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 992px) {
+
+    .carousel-section {
+       display: none; 
+    }
+    
+}
+
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 576px) {
+    
+}

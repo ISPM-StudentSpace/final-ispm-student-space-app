@@ -1,4 +1,7 @@
 .footer {
+    background-image: url(../img//bg-footer-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: 'Roboto-Light', sans-serif;
     padding-top: 48px;
 }

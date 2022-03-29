@@ -33,3 +33,24 @@ body {
 	color: #14df85;
 	background: white;
 }
+
+.section {
+    padding: 60px 0 60px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+}
+
+a:hover {
+    color: #14df85;
+}
+
+.section-title h2 {
+    color: #14df85;
+    text-shadow: 1px 1px 1px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 2px dashed #14df85;
+}
