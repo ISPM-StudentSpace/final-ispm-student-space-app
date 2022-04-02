@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import React from 'react';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../assets/css/menu.css';
 import { CgMenu } from "react-icons/cg";
 import { NavLink, Link, Outlet } from 'react-router-dom';

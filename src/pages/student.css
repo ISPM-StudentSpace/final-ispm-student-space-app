@@ -1,0 +1,32 @@
+.photo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.information{
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.35);
+    margin-right: 20px;
+}
+.publication{
+    transition: 250ms;
+    padding: 15px;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.247);
+}
+.publication:hover{
+    transform: scale(1.05);
+}
+.publication p.date{
+    color: rgba(71, 71, 71, 0.699);
+}
+.publication .viewers{
+    padding-top: 10px;
+    border-top: 1px solid rgba(151, 151, 151, 0.349);
+}
+.publication .viewers div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}

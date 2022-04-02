@@ -1,0 +1,32 @@
+#sidebar{
+    background: #14df85;
+    padding: 14px;
+    height: 100vh;
+    margin-right: 15px;
+    /*display: none;*/
+}
+.activer{
+    display: block;
+    width: 250px;
+    transition: 1s;
+}
+.desactiver{
+    display: block;
+    width: 80px;
+    transition: 500ms ease-in-out;
+}
+.hamburger{
+    font-size: 25px;
+    cursor: pointer;
+}
+.sidebar-item.active{
+    background: #06be6bb4;
+}
+.sidebar-item{
+    color: #343a40;
+    padding: 10px;
+    margin-top: 2px;
+}
+.sidebar-item:hover{
+    color: #343a40;
+}

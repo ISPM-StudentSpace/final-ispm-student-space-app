@@ -1,8 +1,15 @@
 import React from 'react';
-import Header from '../parts/Header';
 import '../assets/css/login.css';
+import { useNavigate } from 'react-router-dom';
 
 function Login():JSX.Element {
+
+    //cette opération dépendra de l'api et utilisera useEffect
+    const change = useNavigate();
+    const login = () => {
+        change("/student/profil");
+    }
+
     return (
         <div className="Login">
 
@@ -15,7 +22,7 @@ function Login():JSX.Element {
                 <label htmlFor='password'>Serial number</label>
                 <input type="password" className="from-control" id="password"/>
 
-                <button type="submit">SIGN IN</button>
+                <button onClick={login}>SIGN IN</button>
             </form>
             
         </div>

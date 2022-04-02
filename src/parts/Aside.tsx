@@ -26,14 +26,14 @@ function Aside() {
 
           <h4 className='aside-title'>News</h4>
 
-          <a href="#"><h5>Examens semestriels</h5></a>
+          <a href="#aa"><h5>Examens semestriels</h5></a>
           <p>
             Début des examens semestriels (1ère, 2e et 3e année) : jeudi 26 mars 2020. <br />
             Bonne fête de Pâques tout le monde !
           </p>
           <span><FaCalendar/>  24 Mar 2022</span>
           <hr />
-          <a href="#"><h5>Examens semestriels</h5></a>
+          <a href="#aa"><h5>Examens semestriels</h5></a>
           <p>
             Début des examens semestriels (1ère, 2e et 3e année) : jeudi 26 mars 2020. <br />
             Bonne fête de Pâques tout le monde !
