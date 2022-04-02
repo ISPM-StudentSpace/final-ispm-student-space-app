@@ -3,7 +3,9 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 import Menu from './components/Menu';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './parts/Header';
+import StudentProfil from './pages/StudentProfil';
+import StudentMessages from './pages/StudentMessages';
+import SidebarStudent from './components/SidebarStudent';
 
 function App() {
   return (
@@ -13,6 +15,10 @@ function App() {
           <Route element={<Menu/>}>
             <Route path="/" element={<Home/>}/>
             <Route path="/Login" element={<Login />}/>
+          </Route>
+          <Route path="/student" element={<SidebarStudent/>}>
+            <Route path="profil" element={<StudentProfil/>}/>
+            <Route path="messages" element={<StudentMessages/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

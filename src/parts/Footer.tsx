@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/css/footer.css';
 import logo from "../assets/img/logoIspm.png";
 import {FaHome, FaMapMarkerAlt, FaEnvelope, FaPhone} from 'react-icons/fa/index';
-import {BiChevronRight, BiChevronLeft} from 'react-icons/bi/index';
+import {BiChevronRight} from 'react-icons/bi/index';
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-md-5 col-lg-5 mb-4">
                         <div id='footer-logo' className='d-flex align-items-center'>
-                            <img src={logo} className='me-2'/><h6 className="text-uppercase font-weight-bold m-0">ISPM</h6>
+                            <img src={logo} alt="logo" className='me-2'/><h6 className="text-uppercase font-weight-bold m-0">ISPM</h6>
                         </div>
                         <hr/>
                         <h4>
@@ -24,10 +24,10 @@ function Footer() {
                     <div className="col-md-3 col-lg-3 mb-4" id="liens">
                         <h6 className="text-uppercase font-weight-bold">Links</h6>
                         <hr/>
-                        <p><a href="#"><BiChevronRight/> Home</a></p>
-                        <p><a href="#"><BiChevronRight/> Presentation</a></p>
-                        <p><a href="#"><BiChevronRight/> News & Events</a></p>
-                        <p><a href="#"><BiChevronRight/> Researches</a></p>
+                        <p><a href="#aa"><BiChevronRight/> Home</a></p>
+                        <p><a href="#aa"><BiChevronRight/> Presentation</a></p>
+                        <p><a href="#aa"><BiChevronRight/> News & Events</a></p>
+                        <p><a href="#aa"><BiChevronRight/> Researches</a></p>
                     </div>
 
                     <div className="col-md-4 col-lg-4" id='footer-contact'>
@@ -48,7 +48,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="copyright-text">
-                                © 2022 Copyright : <a href="#">ispm-edu.com</a>
+                                © 2022 Copyright : <a href="#aa">ispm-edu.com</a>
                             </div>
                         </div>
                         <div className="col-md-6"></div>
